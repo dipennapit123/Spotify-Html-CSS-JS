@@ -9,30 +9,42 @@ body {
   padding: 0;
 }
 nav {
-    font-family: "Varela Round", sans-serif;
+  font-family: "Varela Round", sans-serif;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    height: 65px;
-    background-color: black;
-    color: white;
-    
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
 }
 nav ul li {
-    padding:0 12px;
+  padding: 0 12px;
 }
-.brand img{
-    width: 44px;
-     
+.brand img {
+  width: 44px;
 }
-.brand{
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
     display: flex;
-    align-items:center;
-    
-    font-weight: bolder;
-    font-size: 1.3rem;
+    justify-content:center;
+    align-items: center;
+}
+#myProgressBar{
+    width: 80vw;
 
 }
